@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".qestAns">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="שאלות נפוצות"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="27dp"
+                android:gravity="end"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/quest1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="•  מה אני צריך להביא איתי לבדיקה?"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+                <TextView
+                    android:id="@+id/Ans1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  תעודת זהות, בקבוק מים ומלווה אם יש אפשרות"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="end"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/quest2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="•  מה ההכנות שצריך לעשות לפני הטיפול?"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+                <TextView
+                    android:id="@+id/Ans2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="   את כל הוראות הטיפול ניתן למצוא"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:id="@+id/clickAns2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="כאן."
+                    android:clickable="true"
+                    android:textColor="@color/purple_500"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="27dp"
+                android:gravity="end"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/quest3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="•  איפה אני יכול למצוא מידע על הטיפול? "
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+                <TextView
+                    android:id="@+id/Ans3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="תשובה: למידע אודות הטיפול לחץ"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:id="@+id/clickAns3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="כאן."
+                    android:clickable="true"
+                    android:textColor="@color/purple_500"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="27dp"
+                android:gravity="end"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/quest4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="•   למי אפשר לפנות כדי להתייעץ וליצור קשר? "
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+                <TextView
+                    android:id="@+id/Ans4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="תשובה: לכל שאלה או בקשה ניתן לפנות לד”ר..... למייל:  blabla@stam.com"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="..."
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
